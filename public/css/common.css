@@ -1,0 +1,307 @@
+/**************************              border Commmon CSS               **************************/
+
+.border_b_1 {
+    border: 1px solid black;
+}
+
+.border_none
+{
+    border: none;
+}
+
+/************************************************************************************************/
+
+/**************************              Width Common CSS               **************************/
+
+.wid100p{
+    width: 100%;
+    /*width 100% margin 0 auto하면 가운데 정렬이 된다!*/
+}
+
+.wid50 {
+    width: 50%;
+}
+
+.width_640p {
+    width: 640px;
+}
+
+.width_420p {
+    width: 420px;
+}
+
+.width_1280p {
+    width: 1280px;
+}
+
+
+/************************************************************************************************/
+
+/**************************              Height Common CSS               **************************/
+
+.height_0
+{
+    height: 0px;
+}
+
+/************************************************************************************************/
+
+/**************************              Float Common CSS               **************************/
+.f_l {
+    float: left;
+}
+
+.f_r {
+    float: right;
+}
+
+.of_h {
+    overflow: hidden;
+}
+
+.of_a {
+    overflow: auto;
+}
+
+.clear_both {
+    clear: both;
+}
+
+/************************************************************************************************/
+
+/**************************              Display Common CSS               **************************/
+
+.display_inline {
+    display: inline-block;
+}
+
+/************************************************************************************************/
+
+/**************************              List Common CSS               **************************/
+
+.list_style {
+    list-style: none;
+    display: inline-block;
+}
+
+
+ul.mylist li {
+    display: inline-block;
+
+}
+
+/************************************************************************************************/
+
+/**************************              Padding Common CSS               **************************/
+
+.pad_0
+{
+    padding: 0px;
+}
+
+.pad_10{
+    padding: 10px;
+}
+.pad_t_10 {
+    padding-top: 10px;
+}
+
+.pad_l_10 {
+    padding-left: 10px;
+}
+
+.pad_r_10 {
+    padding-right: 10px;
+}
+
+.pad_b_10 {
+    padding-bottom: 10px;
+}
+
+
+
+/************************************************************************************************/
+
+/**************************              Margine Common CSS               **************************/
+
+.m_0_a{
+    margin: 0 auto;
+}
+
+.m_l_a
+{
+    margin-left: auto;
+}
+.m_r_a
+{
+    margin-right: auto;
+}
+.m_t_a
+{
+    margin-top: auto;
+}
+.m_b_a
+{
+    margin-bottom: auto;
+}
+
+.m_a
+{
+    margin: auto;
+}
+
+
+
+/************************************************************************************************/
+
+/**************************              BackGround Common CSS               **************************/
+
+.back_trans /* 투명색*/
+{
+    background: transparent;
+}
+
+.back_black
+{
+    background: black;
+}
+
+.back_gray
+{
+    background: gray;
+}
+
+.back_white
+{
+    background: white;
+}
+
+.back_yellow
+{
+    background: yellow;
+}
+.back_green
+{
+    background:green;
+}
+
+/************************************************************************************************/
+
+/**************************              Color CSS               **************************/
+
+.color_white
+{
+    color:white;
+}
+.color_black
+{
+    color:black;
+}
+.color_blue
+{
+    color:blue;
+}
+.color_red
+{
+    color:red;
+}
+.color_green
+{
+    color:green;
+}
+
+
+/************************************************************************************************/
+
+/**************************              Opacity CSS               **************************/
+/*투명도에 관한 css  숫자가 높아질수록 색이 짙고, 숫자가 낮아질 수록 투명*/
+
+.opacity_0
+{
+    opacity: 0.0;
+}
+.opacity_25
+{
+    opacity: 0.25;
+}
+.opacity_50
+{
+    opacity:0.5;
+}
+.opacity_75
+{
+    opacity:0.75;
+}
+
+
+
+
+/************************************************************************************************/
+
+/**************************              정렬 Align Common CSS               **************************/
+
+/* 내용을 가로 정렬.
+인라인 요소에 적용되지 않음.*/
+.text_a_l {
+    text-align: left;
+}
+.text_a_r
+{
+    text-align: right;
+}
+.text_a_c
+{
+    text-align: center;
+}
+.text_a_l
+{
+    text-align: justify;/*양쪽정렬*/
+}
+
+/*내용 세로 정렬*/
+.ver-align_top
+{
+    vertical-align: text-top;
+}
+.ver-align_mid
+{
+    vertical-align: middle;
+}
+.ver-align_base
+{
+    vertical-align: baseline;
+}.ver-align_text_bot
+ {
+     vertical-align: text-bottom;
+ }
+
+/* 포지션 옵션으로 z 축에 대해 설정 가능*/
+.position_a
+{
+    position: absolute;
+}
+
+/*가운데 정렬을 하고 싶다면?
+left:0 right:0 margin-left:auto; margin-right:auto;하면 된다!
+*/
+.left_0 {
+    left: 0;
+}
+.right_0
+{
+    right: 0;
+}
+.top_0
+{
+    top:0;
+}
+.bottom_0
+{
+    bottomn:0;
+}
+
+
+.align_item_c
+{
+    align-items: center;
+}
